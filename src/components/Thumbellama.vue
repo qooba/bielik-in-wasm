@@ -26,7 +26,7 @@ export default defineComponent({
     const assistantConversation: any = ref([]);
     //const assistantModel: any = ref("Bielik-11B-v2.3-Instruct-q3f32_1");
 
-    const assistantModel: any = ref("Bielik-7B-Instruct-v0.1-q4f32_1");
+    const assistantModel: any = ref("Bielik-1.5B-v3.0-Instruct-q4f32_1");
 
     const assistantChange = async () => {
       await assistant.reload(assistantModel.value);
